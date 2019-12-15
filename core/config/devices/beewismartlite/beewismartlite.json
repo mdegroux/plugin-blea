@@ -1,0 +1,49 @@
+{
+    "beewismartlite": {
+        "name": "BeeWi SmartLite BBL227",
+        "groupe" : "Lumières",
+		"configuration" : {
+			"cancontrol" : 1,
+			"name" : "bewiismartlite",
+			"canbelocked" : 1
+		},
+		"commands": [
+			{	
+				"name": "On",
+                "type": "action",
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "",
+                "logicalId": "name:beewismartlite,handle:0x21,value:1001,type:switch",
+				"display": {
+				"icon": "<i class=\"icon jeedom2-light-bulb2\"><\/i>"
+				}
+            },
+			{	
+				"name": "Off",
+                "type": "action",
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "",
+                "logicalId": "name:beewismartlite,handle:0x21,value:1000,type:switch",
+				"display": {
+				"icon": "<i class=\"icon jeedom2-light-bulb7\"><\/i>"
+				}
+            }
+        ],
+		"compatibility": [
+            {
+                "manufacturer": "Beewi ",
+                "name": "SmartLite BBL227",
+				"doc": "",
+				"type": "Lumières",
+				"battery_type": "",
+				"ref" : "",
+				"comlink": "",
+				"remark": "Il faut valider l'appairage pendant la première minute après avoir allumé l'ampoule",
+				"inclusion" : "Mode inclusion",
+				"imglink": "bbl227"
+            }
+        ]
+    }
+}
